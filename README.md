@@ -259,6 +259,38 @@ The AirBnB clone project requires a well-structured database to store and manage
 - `PUT /reviews/{review_id}/` - Update a specific review
 - `DELETE /reviews/{review_id}/` - Delete a specific review
 
+## Feature Breakdown
+
+### User Management
+The User Management system handles user registration, authentication, and profile management. It provides secure login mechanisms, password recovery options, and user profile customization, establishing the foundation for user identity within the platform.
+
+### Property Management
+Property Management allows hosts to create, update, and showcase their property listings. This feature includes property details, photos, amenities, and availability calendars, enabling hosts to effectively market their spaces to potential guests.
+
+### Booking System
+The Booking System facilitates the reservation process between guests and hosts. It manages availability checks, booking requests, confirmation processes, and cancellation policies, ensuring a seamless reservation experience for both parties.
+
+### Payment Processing
+Payment Processing handles all financial transactions within the platform. It securely processes payments from guests to hosts, manages refunds when necessary, and maintains payment records, providing the essential economic infrastructure for the marketplace.
+
+### Review System
+The Review System enables guests to share their experiences through ratings and written feedback. It builds trust within the community by allowing prospective guests to make informed decisions based on others' experiences, while helping hosts improve their offerings.
+
+### Search and Filtering
+Search and Filtering functionality allows users to find properties based on location, price, amenities, and availability. This feature uses advanced algorithms to deliver relevant results, enhancing the user experience by simplifying the property discovery process.
+
+### Messaging System
+The Messaging System facilitates communication between hosts and guests. It provides a secure channel for discussing booking details, answering questions, and coordinating check-in arrangements, fostering clear communication throughout the booking journey.
+
+### Notification Service
+The Notification Service keeps users informed about important events and updates. It sends timely alerts for booking confirmations, messages, upcoming stays, and system announcements, ensuring users stay connected with their account activities.
+
+### Admin Dashboard
+The Admin Dashboard provides platform administrators with tools to manage users, properties, and transactions. It includes reporting capabilities, user verification processes, and content moderation features, helping maintain platform integrity and quality standards.
+
+### API Infrastructure
+The API Infrastructure serves as the backbone for service integration and third-party connections. It follows RESTful design principles with comprehensive documentation, enabling developers to extend functionality and integrate with external services.
+
 ## Project Timeline
 This project will be developed incrementally with multiple phases, starting with a command-line interface and eventually building up to a fully functional web application with a comprehensive API.
 
