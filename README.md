@@ -67,5 +67,44 @@ Here's a breakdown of the key roles and responsibilities within our project team
 
 Each role is crucial for the successful implementation of the AirBnB clone project, and team members may take on multiple roles depending on the phase of the project.
 
+## Technology Stack
+
+Here's a detailed breakdown of the technology stack used in our AirBnB clone project:
+
+### Python
+- **Purpose**: Core programming language for backend development
+- **Usage**: Implements the command interpreter, models, and business logic
+- **Benefits**: Strong typing, extensive libraries, and excellent for object-oriented programming
+
+### JSON (JavaScript Object Notation)
+- **Purpose**: Data interchange format for storage
+- **Usage**: Serializes and deserializes Python objects for persistency
+- **Benefits**: Lightweight, human-readable, and language-independent
+
+### MySQL
+- **Purpose**: Relational database management system (planned for later phases)
+- **Usage**: Will store structured data for users, places, reviews, etc.
+- **Benefits**: ACID compliance, strong data integrity, and robust query capabilities
+
+### HTML (HyperText Markup Language)
+- **Purpose**: Standard markup language for web pages
+- **Usage**: Defines the structure and content of web pages
+- **Benefits**: Universal browser support and semantic structure
+
+### CSS (Cascading Style Sheets)
+- **Purpose**: Style sheet language for presentation
+- **Usage**: Designs the visual layout and aesthetics of web pages
+- **Benefits**: Separation of content and presentation, responsive design capabilities
+
+### JavaScript
+- **Purpose**: Programming language for web interactivity
+- **Usage**: Implements dynamic features and user interactions
+- **Benefits**: Client-side execution, asynchronous programming, and DOM manipulation
+
+### Unittest Framework
+- **Purpose**: Python's built-in testing framework
+- **Usage**: Tests the functionality of classes, methods, and features
+- **Benefits**: Automated testing, test discovery, and test organization
+
 ## Authors
 - [Yassir Rzigui](https://github.com/yazzy01)
