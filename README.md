@@ -291,6 +291,54 @@ The Admin Dashboard provides platform administrators with tools to manage users,
 ### API Infrastructure
 The API Infrastructure serves as the backbone for service integration and third-party connections. It follows RESTful design principles with comprehensive documentation, enabling developers to extend functionality and integrate with external services.
 
+## API Security
+
+Security is a critical component of our AirBnB clone project, particularly for protecting sensitive user data and ensuring secure transactions. Below are the key security measures implemented across our API infrastructure:
+
+### Authentication
+- **JSON Web Tokens (JWT)**: Implements stateless authentication, allowing secure transmission of information between parties.
+- **OAuth 2.0 Integration**: Enables third-party authentication options (Google, Facebook, etc.) for enhanced user convenience and security.
+- **Multi-factor Authentication**: Adds an additional layer of security for sensitive operations such as payments or account changes.
+
+### Authorization
+- **Role-based Access Control**: Restricts system access to authorized users based on roles (guest, host, admin).
+- **Permission Levels**: Granular control over what actions users can perform on specific resources.
+- **Attribute-based Policies**: Ensures users can only access their own data or data explicitly shared with them.
+
+### Data Protection
+- **End-to-End Encryption**: Secures sensitive data transmission between client and server.
+- **Data Masking**: Hides sensitive information (credit card details, personal identification) from unauthorized viewers.
+- **PII Protection**: Special handling for Personally Identifiable Information in compliance with privacy regulations like GDPR and CCPA.
+
+### API Request Security
+- **Rate Limiting**: Prevents abuse by limiting the number of requests a user can make in a given timeframe.
+- **Input Validation**: Thoroughly checks all incoming data to prevent injection attacks.
+- **CORS (Cross-Origin Resource Sharing)**: Controls which domains can access our API, preventing unauthorized access from malicious websites.
+
+### Infrastructure Security
+- **HTTPS Enforcement**: All API communications are encrypted using TLS/SSL.
+- **DDoS Protection**: Implements measures to identify and mitigate distributed denial-of-service attacks.
+- **Regular Security Audits**: Scheduled vulnerability assessments and penetration testing to identify potential weaknesses.
+
+### Security Importance by Area
+
+**User Management**
+Security is essential for protecting personal information and preventing unauthorized account access. A breach in this area could lead to identity theft or privacy violations, severely damaging user trust.
+
+**Property Management**
+Secure property listings protect hosts' privacy and prevent listing manipulation. Compromised property data could lead to fraudulent listings or expose sensitive location information.
+
+**Booking System**
+Securing the booking process ensures reservation integrity and protects users' travel plans. Vulnerabilities here could enable unauthorized bookings or cancellations, disrupting users' travel arrangements.
+
+**Payment Processing**
+The most sensitive area requiring robust security to protect financial information. Inadequate payment security could result in financial theft, fraud, and significant legal consequences under financial regulations.
+
+**Review System**
+Security measures prevent fake reviews and review manipulation, maintaining the integrity of our platform's reputation system. Compromised review systems diminish platform credibility and user trust.
+
+Our comprehensive security approach is designed as a multi-layered defense strategy, ensuring that the failure of any single security control doesn't compromise the entire system.
+
 ## Project Timeline
 This project will be developed incrementally with multiple phases, starting with a command-line interface and eventually building up to a fully functional web application with a comprehensive API.
 
